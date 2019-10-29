@@ -1,0 +1,20 @@
+@startuml
+skinparam componentStyle uml2
+
+cloud "Cloud" {
+    node {
+        [UI] - HTTP
+    }
+    node {
+        [Backend]
+    }
+    database {
+        [PostgreSQL]
+    }
+}
+
+[UI] -> [Backend] : REST
+[Backend] -> [PostgreSQL]
+[Client] -> HTTP
+
+@enduml
