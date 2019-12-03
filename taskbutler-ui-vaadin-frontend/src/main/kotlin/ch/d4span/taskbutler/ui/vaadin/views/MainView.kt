@@ -1,4 +1,4 @@
-package ch.d4span.taskbutler.taskbutleruivaadin.views
+package ch.d4span.taskbutler.ui.vaadin.views
 
 import com.vaadin.flow.component.Text
 import com.vaadin.flow.component.orderedlayout.VerticalLayout
