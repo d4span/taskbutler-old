@@ -6,7 +6,10 @@
 
     <modules>
         <module>taskbutler-ui-vaadin-app</module>
-        <module>taskbutler-ui-vaadin-frontend</module>
+        <module>taskbutler-ui-vaadin-entities</module>
+        <module>taskbutler-ui-vaadin-use-cases</module>
+        <module>taskbutler-ui-vaadin-adapters</module>
+        <module>taskbutler-ui-vaadin-frameworks-drivers</module>
     </modules>
 
     <groupId>ch.d4span.taskbutler</groupId>
