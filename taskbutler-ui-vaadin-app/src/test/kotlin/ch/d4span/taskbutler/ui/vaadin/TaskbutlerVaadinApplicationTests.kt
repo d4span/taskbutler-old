@@ -1,7 +1,7 @@
 package ch.d4span.taskbutler.ui.vaadin
 
-import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
+import kotlin.test.Test
 
 @SpringBootTest
 class TaskbutlerVaadinApplicationTests {
