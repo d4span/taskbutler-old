@@ -5,18 +5,18 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>taskbutler-ui-vaadin-app</module>
-        <module>taskbutler-ui-vaadin-entities</module>
-        <module>taskbutler-ui-vaadin-use-cases</module>
-        <module>taskbutler-ui-vaadin-adapters</module>
-        <module>taskbutler-ui-vaadin-frameworks-drivers</module>
+        <module>taskbutler-app</module>
+        <module>taskbutler-domain-logic</module>
+        <module>taskbutler-app-logic</module>
+        <module>taskbutler-adapters</module>
+        <module>taskbutler-frameworks-drivers</module>
     </modules>
 
     <groupId>ch.d4span.taskbutler</groupId>
-    <artifactId>taskbutler-ui-vaadin</artifactId>
+    <artifactId>taskbutler</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>taskbutler-ui-vaadin</name>
+    <name>taskbutler</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
