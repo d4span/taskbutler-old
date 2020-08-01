@@ -1,6 +1,10 @@
 name: Java CI
 
-on: [push]
+on: 
+  push: 
+  pull_request:
+  schedule:
+    - cron: "0 2 * * *"
 
 jobs:
   build:
@@ -14,4 +18,4 @@ jobs:
       with:
         java-version: 11
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B verify package --file pom.xml
